@@ -15,7 +15,7 @@ function jump() {
   isJumping = true;
 
   let upInterval = setInterval(() => {
-    if (position >= 180) {
+    if (position >= 150) {
       clearInterval(upInterval);
 
       let downInterval = setInterval(() => {
